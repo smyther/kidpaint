@@ -12,13 +12,6 @@ html, body {
 	position: relative;
 }
 
-#tmp_canvas {
-	position: absolute;
-	left: 0px; right: 0;
-	bottom: 0; top: 0;
-	cursor: crosshair;
-}
-
 #buttons {
 	position: absolute;
 	top: 10px;
@@ -44,6 +37,10 @@ html, body {
 	margin: 5px auto 5px auto;
 }
 
+#buttons .color.selected {
+	border: 2px solid #cccccc;
+}
+
 #purple {
 	background: purple;
 }
@@ -64,6 +61,3 @@ html, body {
 	background: url('../img/random.png') no-repeat top left;
 }
 
-#buttons .color.selected {
-	border: 2px solid #cccccc;
-}

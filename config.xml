@@ -5,20 +5,18 @@
         versionCode="10" 
         version   = "1.0.0">
 
-    <!-- versionCode is optional and Android only -->
-
-    <name>bunglePaint</name>
+    <name>kidPaint</name>
 
     <description>
-        bunglePaint!
+        kidPaint!
     </description>
 
     <author href="https://iamdavesmith.com" email="d@smiff.co.uk">
         Dave Smith
     </author>
 
+    <preference name="permissions" value="none"/>
     <preference name="orientation" value="landscape" />
     <preference name="fullscreen" value="true" />
-    <icon src="/icon.png" height="96" width="96" />
-    <gap:splash src="splash.png" />
+    <icon src="img/icon.png" height="96" width="96" />
 </widget>
